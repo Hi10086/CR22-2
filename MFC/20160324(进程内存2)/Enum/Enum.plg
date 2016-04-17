@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Enum - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6E8B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Enum.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\CR22\MFC\½ø³ÌÄÚ´æ\Enum\EnumDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6E8B.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6E8C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Enum.pdb" /debug /machine:I386 /out:"Debug/Enum.exe" /pdbtype:sept 
+".\Debug\Enum.obj"
+".\Debug\EnumDlg.obj"
+".\Debug\MemoryDlg.obj"
+".\Debug\MyStatic.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Enum.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6E8C.tmp"
+<h3>Output Window</h3>
+Compiling...
+EnumDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Enum.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

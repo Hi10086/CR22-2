@@ -1,0 +1,2 @@
+1.测试dll搜索路径
+2.Use文件中不修改FirstDll.dll和Use.exe文件，在弹出ShowMsg前弹出Hello World.

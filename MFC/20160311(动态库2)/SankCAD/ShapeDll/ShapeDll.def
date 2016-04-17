@@ -1,0 +1,7 @@
+; ShapeDll.def : Declares the module parameters for the DLL.
+
+LIBRARY      "ShapeDll"
+DESCRIPTION  'ShapeDll Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

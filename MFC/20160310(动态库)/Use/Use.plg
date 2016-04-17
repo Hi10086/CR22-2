@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Use - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Sank\AppData\Local\Temp\RSP9887.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Use.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160310(动态库)\FirstDll\FirstDll.cpp"
+]
+Creating command line "cl.exe @C:\Users\Sank\AppData\Local\Temp\RSP9887.tmp" 
+<h3>Output Window</h3>
+Compiling...
+FirstDll.cpp
+c:\users\sank\documents\github\cr22\mfc\20160310(动态库)\firstdll\firstdll.cpp(31) : fatal error C1010: unexpected end of file while looking for precompiled header directive
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+FirstDll.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

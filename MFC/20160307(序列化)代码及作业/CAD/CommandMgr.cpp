@@ -1,0 +1,27 @@
+// CommandMgr.cpp: implementation of the CCommandMgr class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "CAD.h"
+#include "CommandMgr.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CCommandMgr::CCommandMgr()
+{
+
+}
+
+CCommandMgr::~CCommandMgr()
+{
+
+}

@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SankTools - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/SankTools.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\CR22\SankTools\SankTools.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP220.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SankTools.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\CR22\SankTools\MyProcessDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\CR22\SankTools\SankTools.cpp"
+"C:\Documents and Settings\Administrator\桌面\CR22\SankTools\SankToolsDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\CR22\SankTools\ThreadDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP220.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP221.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SankTools.pdb" /debug /machine:I386 /out:"Debug/SankTools.exe" /pdbtype:sept 
+".\Debug\InjectDlg.obj"
+".\Debug\ModuleDlg.obj"
+".\Debug\MyProcessDlg.obj"
+".\Debug\SankTools.obj"
+".\Debug\SankToolsDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SankTools.res"
+".\Debug\ThreadDlg.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP221.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ThreadDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+MyProcessDlg.cpp
+SankTools.cpp
+SankToolsDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SankTools.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

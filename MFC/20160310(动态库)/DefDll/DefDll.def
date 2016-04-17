@@ -1,0 +1,5 @@
+
+EXPORTS 
+  ShowMessageEx  @2 
+  g_nNumber  DATA PRIVATE
+  ShowMessage=ShowMessageEx

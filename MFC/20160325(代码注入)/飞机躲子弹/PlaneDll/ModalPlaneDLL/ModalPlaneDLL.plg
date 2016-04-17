@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ModalPlaneDLL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ModalPlaneDLL.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\CR22\PlaneDll\ModalPlaneDLL\ModalPlaneDLL.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F7.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/ModalPlaneDLL.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\CR22\PlaneDll\ModalPlaneDLL\ModalPlaneDLL.cpp"
+"C:\Documents and Settings\Administrator\桌面\CR22\PlaneDll\ModalPlaneDLL\GodPlaneDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\CR22\PlaneDll\ModalPlaneDLL\GodThread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Release/ModalPlaneDLL.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\CR22\PlaneDll\ModalPlaneDLL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F9.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/ModalPlaneDLL.pdb" /machine:I386 /def:".\ModalPlaneDLL.def" /out:"Release/ModalPlaneDLL.dll" /implib:"Release/ModalPlaneDLL.lib" 
+".\Release\ModalPlaneDLL.obj"
+".\Release\StdAfx.obj"
+".\Release\ModalPlaneDLL.res"
+".\Release\GodPlaneDlg.obj"
+".\Release\GodThread.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1F9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ModalPlaneDLL.cpp
+GodPlaneDlg.cpp
+GodThread.cpp
+Generating Code...
+Linking...
+   Creating library Release/ModalPlaneDLL.lib and object Release/ModalPlaneDLL.exp
+
+
+
+<h3>Results</h3>
+ModalPlaneDLL.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

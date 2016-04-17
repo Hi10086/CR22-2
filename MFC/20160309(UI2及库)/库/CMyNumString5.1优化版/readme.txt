@@ -1,0 +1,2 @@
+CMyString增加 字符串比较
+优化了CMyString的运算符重载

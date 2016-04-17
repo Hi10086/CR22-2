@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ListViewTaskManger - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Sank\LOCALS~1\Temp\RSP2195.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ListViewTaskManger.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Sank\ListViewTaskManger\TaskListView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Sank\LOCALS~1\Temp\RSP2195.tmp" 
+Creating temporary file "C:\DOCUME~1\Sank\LOCALS~1\Temp\RSP2196.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ListViewTaskManger.pdb" /debug /machine:I386 /out:"Debug/ListViewTaskManger.exe" /pdbtype:sept 
+".\Debug\ListViewTaskManger.obj"
+".\Debug\ListViewTaskMangerDoc.obj"
+".\Debug\ListViewTaskMangerView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TaskListView.obj"
+".\Debug\ListViewTaskManger.res"
+".\Debug\TaskInfo.obj"
+".\Debug\TaskMap.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Sank\LOCALS~1\Temp\RSP2196.tmp"
+<h3>Output Window</h3>
+Compiling...
+TaskListView.cpp
+c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(97) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,std::pair<unsigned long const ,CTaskInfo *>,std::pair<unsigned long const ,CTaskInfo *> &,std::pair<unsigned long const ,CTaskInfo *> *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(96) : while compiling class-template member function 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,bool> __thiscall std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::insert(const std::pair<unsigned long const ,CTaskInfo *> &)'
+c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(97) : warning C4786: 'std::reverse_bidirectional_iterator<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::const_iterator,std::pair<unsigned long const ,CTaskInfo *>,std::pair<unsigned long const ,CTaskInfo *> const &,std::pair<unsigned long const ,CTaskInfo *> const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(96) : while compiling class-template member function 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,bool> __thiscall std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::insert(const std::pair<unsigned long const ,CTaskInfo *> &)'
+c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(97) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator>' : identifier was truncated to '255' characters in the debug information
+        c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(96) : while compiling class-template member function 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,bool> __thiscall std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::insert(const std::pair<unsigned long const ,CTaskInfo *> &)'
+c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(97) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::const_iterator,std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::const_iterator>' : identifier was truncated to '255' characters in the debug information
+        c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\map(96) : while compiling class-template member function 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,bool> __thiscall std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::insert(const std::pair<unsigned long const ,CTaskInfo *> &)'
+c:\破解工具箱\程序设计\microsoft visual c++ v6.0\vc98\include\utility(21) : warning C4786: 'std::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,bool>::pair<std::_Tree<unsigned long,std::pair<unsigned long const ,CTaskInfo *>,std::map<unsigned long,CTaskInfo *,std::less<unsigned long>,std::allocator<CTaskInfo *> >::_Kfn,std::less<unsigned long>,std::allocator<CTaskInfo *> >::iterator,bool>' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+ListViewTaskManger.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

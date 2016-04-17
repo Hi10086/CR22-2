@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CAD - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/CAD.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\CAD.rc"" 
+Creating temporary file "C:\Users\Sank\AppData\Local\Temp\RSPF6B4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CAD.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\AddCommand.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\CAD.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\CADDoc.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\CADView.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\CommandMgr.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\ICommand.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\IShape.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\Line.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\MainFrm.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\MyButton.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\MyList.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\Rectangle.cpp"
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\SettingDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Sank\AppData\Local\Temp\RSPF6B4.tmp" 
+Creating temporary file "C:\Users\Sank\AppData\Local\Temp\RSPF6B5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CAD.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Sank\AppData\Local\Temp\RSPF6B5.tmp" 
+Creating temporary file "C:\Users\Sank\AppData\Local\Temp\RSPF6B6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CAD.pdb" /debug /machine:I386 /out:"Debug/CAD.exe" /pdbtype:sept 
+".\Debug\AddCommand.obj"
+".\Debug\CAD.obj"
+".\Debug\CADDoc.obj"
+".\Debug\CADView.obj"
+".\Debug\CommandMgr.obj"
+".\Debug\ICommand.obj"
+".\Debug\IShape.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyButton.obj"
+".\Debug\MyList.obj"
+".\Debug\Rectangle.obj"
+".\Debug\SettingDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CAD.res"
+]
+Creating command line "link.exe @C:\Users\Sank\AppData\Local\Temp\RSPF6B6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddCommand.cpp
+CAD.cpp
+CADDoc.cpp
+CADView.cpp
+CommandMgr.cpp
+ICommand.cpp
+IShape.cpp
+Line.cpp
+C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\Line.cpp(39) : warning C4101: 'e' : unreferenced local variable
+C:\Users\Sank\Documents\GitHub\CR22\MFC\20160304(CAD3)代码及作业\CAD\Line.cpp(93) : warning C4101: 'e' : unreferenced local variable
+MainFrm.cpp
+MyButton.cpp
+MyList.cpp
+Rectangle.cpp
+SettingDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\Sank\AppData\Local\Temp\RSPFABF.tmp" with contents
+[
+/nologo /o"Debug/CAD.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AddCommand.sbr"
+".\Debug\CAD.sbr"
+".\Debug\CADDoc.sbr"
+".\Debug\CADView.sbr"
+".\Debug\CommandMgr.sbr"
+".\Debug\ICommand.sbr"
+".\Debug\IShape.sbr"
+".\Debug\Line.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\MyButton.sbr"
+".\Debug\MyList.sbr"
+".\Debug\Rectangle.sbr"
+".\Debug\SettingDlg.sbr"]
+Creating command line "bscmake.exe @C:\Users\Sank\AppData\Local\Temp\RSPFABF.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CAD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
