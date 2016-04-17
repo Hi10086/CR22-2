@@ -1,0 +1,24 @@
+HWND 
+
+
+CWnd  <==>  HWND
+
+CWnd  
+ m_hWnd;
+
+{
+   CWnd   wnd;
+   wnd.m_hWnd = hWnd;
+}
+
+[hWnd CWnd]
+
+HWND ==> CWnd
+CWnd::FromHandle
+
+
+CWnd ==> HWND
+CWnd.GetSafeHwnd();
+
+
+

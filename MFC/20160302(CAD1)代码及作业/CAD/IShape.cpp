@@ -1,0 +1,27 @@
+// IShape.cpp: implementation of the IShape class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "CAD.h"
+#include "IShape.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+IShape::IShape()
+{
+
+}
+
+IShape::~IShape()
+{
+
+}

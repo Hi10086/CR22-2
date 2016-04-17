@@ -1,0 +1,4 @@
+IShape
+  OnDraw
+
+CLine :public IShape

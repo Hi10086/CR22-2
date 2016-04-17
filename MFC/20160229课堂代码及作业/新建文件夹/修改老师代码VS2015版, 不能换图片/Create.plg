@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Create - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Sank\LOCALS~1\Temp\RSP13E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Create.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Sank\桌面\20160227课堂代码及作业\Create\Create.cpp"
+"C:\Documents and Settings\Sank\桌面\20160227课堂代码及作业\Create\CreateDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Sank\LOCALS~1\Temp\RSP13E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Create.pdb" /debug /machine:I386 /out:"Debug/Create.exe" /pdbtype:sept  ".\Debug\Create.obj" ".\Debug\CreateDlg.obj" ".\Debug\MyButton.obj" ".\Debug\StdAfx.obj" ".\Debug\Create.res" "
+<h3>Output Window</h3>
+Compiling...
+Create.cpp
+Generating Code...
+Compiling...
+CreateDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Create.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Create.sbr" ".\Debug\CreateDlg.sbr" ".\Debug\MyButton.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Create.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

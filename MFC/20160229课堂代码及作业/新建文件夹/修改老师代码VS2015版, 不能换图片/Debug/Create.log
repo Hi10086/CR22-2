@@ -1,0 +1,12 @@
+﻿  StdAfx.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  MyButton.cpp
+  CreateDlg.cpp
+  Create.cpp
+d:\users\sank\documents\github\cr22\mfc\20160229课堂代码及作业\新建文件夹\修改老师代码vs2015版, 不能换图片\create.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(5224): note: 参见“CWinApp::Enable3dControls”的声明
+  正在生成代码...
+Create.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Create.vcxproj -> D:\Users\Sank\Documents\GitHub\CR22\MFC\20160229课堂代码及作业\新建文件夹\修改老师代码VS2015版, 不能换图片\.\Debug\Create.exe

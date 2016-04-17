@@ -1,0 +1,7 @@
+MainFrame  应用程序唯一主窗口
+App        初始化
+Doc        存放应用程序数据
+View       视图类，显示数据
+
+
+auto CAD
